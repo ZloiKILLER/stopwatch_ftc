@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">BEREIT</string>
+    <string name="laps_count">RUNDEN: %1$d</string>
+    <string name="lap">Runde</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="start">Starten</string>
+    <string name="pause">Pause</string>
+    <string name="header_lap">RUNDE</string>
+    <string name="header_lap_time">RUNDENZEIT</string>
+    <string name="header_total_time">GESAMTZEIT</string>
+    <string name="empty_laps_title">Keine Runden aufgezeichnet</string>
+    <string name="empty_laps_desc">Zeichnen Sie Runden auf, während die Stoppuhr läuft, um sie zu vergleichen.</string>
+    <string name="tag_fastest">SCHNELL</string>
+    <string name="tag_slowest">LANGSAM</string>
+    <string name="elapsed_time">ABGELAUFENE ZEIT</string>
+</resources>

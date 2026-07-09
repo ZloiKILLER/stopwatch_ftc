@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">БАСТАУҒА ДАЙЫН</string>
+    <string name="laps_count">АЙНАЛЫМДАР: %1$d</string>
+    <string name="lap">Айналым</string>
+    <string name="reset">Ысыру</string>
+    <string name="start">Бастау</string>
+    <string name="pause">Кідірту</string>
+    <string name="header_lap">АЙНАЛЫМ</string>
+    <string name="header_lap_time">АЙНАЛЫМ УАҚЫТЫ</string>
+    <string name="header_total_time">ЖАЛПЫ УАҚЫТ</string>
+    <string name="empty_laps_title">Айналымдар жазылмады</string>
+    <string name="empty_laps_desc">Салыстыру үшін секундомер жұмыс істеп тұрғанда айналымдарды белгілеңіз.</string>
+    <string name="tag_fastest">ЖЫЛДАМ</string>
+    <string name="tag_slowest">БАЯУ</string>
+    <string name="elapsed_time">ӨТКЕН УАҚЫТ</string>
+</resources>

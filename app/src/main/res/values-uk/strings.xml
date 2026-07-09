@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">ГОТОВИЙ ДО СТАРТУ</string>
+    <string name="laps_count">КІЛЬКІСТЬ КРУГІВ: %1$d</string>
+    <string name="lap">Круг</string>
+    <string name="reset">Скидання</string>
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="header_lap">КРУГ</string>
+    <string name="header_lap_time">ЧАС КРУГУ</string>
+    <string name="header_total_time">ЗАГАЛЬНИЙ ЧАС</string>
+    <string name="empty_laps_title">Кола не записані</string>
+    <string name="empty_laps_desc">Записуйте кола під час роботи секундоміра для їх порівняння.</string>
+    <string name="tag_fastest">ШВИДКИЙ</string>
+    <string name="tag_slowest">ПОВІЛЬНИЙ</string>
+    <string name="elapsed_time">ПРОЙШОВ ЧАС</string>
+</resources>

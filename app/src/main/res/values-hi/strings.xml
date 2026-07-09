@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">तैयार</string>
+    <string name="laps_count">लैप: %1$d</string>
+    <string name="lap">लैप</string>
+    <string name="reset">रीसेट</string>
+    <string name="start">शुरू करें</string>
+    <string name="pause">विराम</string>
+    <string name="header_lap">लैप</string>
+    <string name="header_lap_time">लैप का समय</string>
+    <string name="header_total_time">कुल समय</string>
+    <string name="empty_laps_title">कोई लैप दर्ज नहीं</string>
+    <string name="empty_laps_desc">तुलना करने के लिए स्टॉपवॉच चलने के दौरान लैप रिकॉर्ड करें।</string>
+    <string name="tag_fastest">सबसे तेज़</string>
+    <string name="tag_slowest">सबसे धीमा</string>
+    <string name="elapsed_time">बीता हुआ समय</string>
+</resources>

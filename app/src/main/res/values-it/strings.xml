@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">PRONTO</string>
+    <string name="laps_count">GIRI: %1$d</string>
+    <string name="lap">Giro</string>
+    <string name="reset">Ripristina</string>
+    <string name="start">Avvia</string>
+    <string name="pause">Pausa</string>
+    <string name="header_lap">GIRO</string>
+    <string name="header_lap_time">TEMPO GIRO</string>
+    <string name="header_total_time">TEMPO TOTALE</string>
+    <string name="empty_laps_title">Nessun giro registrato</string>
+    <string name="empty_laps_desc">Registra i giri mentre il cronometro è attivo per confrontarli.</string>
+    <string name="tag_fastest">VELOCE</string>
+    <string name="tag_slowest">LENTO</string>
+    <string name="elapsed_time">TEMPO TRASCORSO</string>
+</resources>

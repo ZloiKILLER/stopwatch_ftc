@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">準備完了</string>
+    <string name="laps_count">ラップ数: %1$d</string>
+    <string name="lap">ラップ</string>
+    <string name="reset">リセット</string>
+    <string name="start">スタート</string>
+    <string name="pause">一時停止</string>
+    <string name="header_lap">ラップ</string>
+    <string name="header_lap_time">ラップタイム</string>
+    <string name="header_total_time">合計時間</string>
+    <string name="empty_laps_title">ラップが記録されていません</string>
+    <string name="empty_laps_desc">ストップウォッチの稼働中にラップを記録して比較します。</string>
+    <string name="tag_fastest">最速</string>
+    <string name="tag_slowest">最遅</string>
+    <string name="elapsed_time">経過時間</string>
+</resources>

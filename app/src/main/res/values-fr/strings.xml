@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stopwatch FTC</string>
+    <string name="ready">PRÊT</string>
+    <string name="laps_count">TOURS : %1$d</string>
+    <string name="lap">Tour</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="start">Démarrer</string>
+    <string name="pause">Pause</string>
+    <string name="header_lap">TOUR</string>
+    <string name="header_lap_time">TEMPS TOUR</string>
+    <string name="header_total_time">TEMPS TOTAL</string>
+    <string name="empty_laps_title">Aucun tour enregistré</string>
+    <string name="empty_laps_desc">Enregistrez des tours pendant que le chronomètre tourne pour les comparer.</string>
+    <string name="tag_fastest">RAPIDE</string>
+    <string name="tag_slowest">LENT</string>
+    <string name="elapsed_time">TEMPS ÉCOULÉ</string>
+</resources>
