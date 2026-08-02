@@ -1,7 +1,5 @@
-<resources>
+﻿<resources>
     <string name="app_name">Stopwatch FTC</string>
-    <string name="ready">準備完了</string>
-    <string name="laps_count">ラップ数: %1$d</string>
     <string name="lap">ラップ</string>
     <string name="reset">リセット</string>
     <string name="start">スタート</string>

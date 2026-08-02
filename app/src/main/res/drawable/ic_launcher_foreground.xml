@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:width="66dp"
-        android:height="66dp"
-        android:drawable="@drawable/ic_stopwatch"
-        android:gravity="center" />
-</layer-list>
+<!-- Adaptive icon foreground. All artwork stays inside the 66dp safe circle of the 108dp canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M33,58 A21,21 0 1 1 75,58 A21,21 0 1 1 33,58"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="6" />
+
+    <path
+        android:pathData="M54,29 L54,33"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="10" />
+
+    <path
+        android:pathData="M70,42 L75,37"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="6" />
+
+    <path
+        android:pathData="M54,58 L63,49"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="5.5" />
+</vector>

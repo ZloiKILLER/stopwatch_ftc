@@ -1,7 +1,5 @@
-<resources>
+﻿<resources>
     <string name="app_name">Stopwatch FTC</string>
-    <string name="ready">ГОТОВ К СТАРТУ</string>
-    <string name="laps_count">КРУГОВ: %1$d</string>
     <string name="lap">Круг</string>
     <string name="reset">Сброс</string>
     <string name="start">Старт</string>

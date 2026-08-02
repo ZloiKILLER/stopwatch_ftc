@@ -1,7 +1,5 @@
-<resources>
+﻿<resources>
     <string name="app_name">Stopwatch FTC</string>
-    <string name="ready">BEREIT</string>
-    <string name="laps_count">RUNDEN: %1$d</string>
     <string name="lap">Runde</string>
     <string name="reset">Zurücksetzen</string>
     <string name="start">Starten</string>

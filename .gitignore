@@ -1,18 +1,18 @@
 *.iml
 .gradle
 .kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+local.properties
 .DS_Store
-/build
-/captures
+build
+captures
 .externalNativeBuild
 .cxx
-local.properties
-.env
-debug.keystore
+
+# Android Studio / IntelliJ: keep shared config, drop per-user state.
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Signing material never belongs in version control.
+*.jks
+*.keystore
