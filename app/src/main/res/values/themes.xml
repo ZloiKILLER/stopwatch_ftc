@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+    <!--
+      The launch theme. Its background is @color/window_background, which resolves to the wallpaper
+      palette from Android 12 and to the light/dark brand background below it, so the launch window
+      already matches the first frame the app draws and there is nothing to see between the two.
+    -->
+    <style name="Theme.Stopwatch.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/window_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Stopwatch</item>
+    </style>
+
+    <style name="Theme.Stopwatch" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
 </resources>

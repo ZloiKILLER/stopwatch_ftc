@@ -1,21 +1,13 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+﻿# kotlinx.serialization generates a companion `$$serializer` for every @Serializable class and
+# looks it up reflectively. R8 understands this, but the generated members still have to survive.
+-keepclassmembers class com.stopwatch.ftc.** {
+    *** Companion;
+}
+-keepclasseswithmembers class com.stopwatch.ftc.** {
+    kotlinx.serialization.KSerializer serializer(...);
+}
+-keep,includedescriptorclasses class com.stopwatch.ftc.**$$serializer { *; }
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
-
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
-
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Keep the line numbers needed to read a release stack trace, without leaking source file names.
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile

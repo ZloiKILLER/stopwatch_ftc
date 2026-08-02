@@ -1,6 +1,0 @@
-{
-  "name": "Stopwatch FTC",
-  "description": "Professional high-precision sports stopwatch with beautiful theme support, lap timing, and system integration.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

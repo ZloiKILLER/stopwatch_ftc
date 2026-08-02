@@ -1,7 +1,5 @@
-<resources>
+﻿<resources>
     <string name="app_name">Stopwatch FTC</string>
-    <string name="ready">तैयार</string>
-    <string name="laps_count">लैप: %1$d</string>
     <string name="lap">लैप</string>
     <string name="reset">रीसेट</string>
     <string name="start">शुरू करें</string>

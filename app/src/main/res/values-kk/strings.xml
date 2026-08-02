@@ -1,7 +1,5 @@
-<resources>
+﻿<resources>
     <string name="app_name">Stopwatch FTC</string>
-    <string name="ready">БАСТАУҒА ДАЙЫН</string>
-    <string name="laps_count">АЙНАЛЫМДАР: %1$d</string>
     <string name="lap">Айналым</string>
     <string name="reset">Ысыру</string>
     <string name="start">Бастау</string>
