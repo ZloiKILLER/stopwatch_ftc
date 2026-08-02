@@ -57,10 +57,34 @@ checkpoint instead of reporting a nonsensical duration.
 The UI samples the stopwatch through `withFrameMillis`, so it updates once per rendered frame and
 stops entirely when the app is not on screen.
 
+The launch window holds until the saved state has been read back, so the first frame already shows
+the real measurement instead of a zero that jumps a moment later. Its background is the same colour
+the app draws, which leaves nothing visible between the two.
+
+## Colour
+
+Colours come from the wallpaper on Android 12 and later, with the brand palette as the fallback
+below it and whenever dynamic colour is switched off. Fastest and slowest laps stay green and red
+either way: they carry meaning, and Material has no colour role for "success".
+
+## Window sizes
+
+Every layout decision is made from the current window rather than the device, so a resized desktop
+window, a folding screen and a split-screen pane all get what fits them:
+
+| Window | Layout |
+| --- | --- |
+| Narrower than 600dp | Dial above the lap list |
+| Taller than it is wide | Dial above the lap list, whatever the width |
+| 600dp or wider, and roughly square or wider | Dial and lap list side by side |
+
+The dial is sized from whichever axis runs out first and the readout scales with it, so the lap list
+always keeps usable space and the time never wraps. Content stops stretching at 1280dp.
+
 ## Layout
 
 ```
-app/src/main/java/com/ftc/stopwatch/
+app/src/main/java/com/stopwatch/ftc/
 ├── MainActivity.kt
 ├── data/StopwatchStore.kt      persistence (DataStore + kotlinx.serialization)
 ├── domain/                     timing engine, no Compose or Android UI dependencies

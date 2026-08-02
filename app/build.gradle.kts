@@ -1,4 +1,4 @@
-plugins {
+﻿plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.kotlin.compose)
   alias(libs.plugins.kotlin.serialization)
@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-  namespace = "com.ftc.stopwatch"
+  namespace = "com.stopwatch.ftc"
   compileSdk { version = release(37) }
 
   defaultConfig {
-    applicationId = "com.ftc.stopwatch"
+    applicationId = "com.stopwatch.ftc"
     minSdk = 24
-    targetSdk = 36
+    targetSdk = 37
     versionCode = 1
     versionName = "1.0"
   }
@@ -59,6 +59,7 @@ dependencies {
   implementation(libs.androidx.compose.ui.graphics)
   implementation(libs.androidx.compose.ui.tooling.preview)
   implementation(libs.androidx.core.ktx)
+  implementation(libs.androidx.core.splashscreen)
   implementation(libs.androidx.datastore.preferences)
   implementation(libs.androidx.lifecycle.runtime.compose)
   implementation(libs.androidx.lifecycle.runtime.ktx)
